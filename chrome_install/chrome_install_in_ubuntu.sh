@@ -11,4 +11,5 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 #install google chrome
 sudo apt install ./google-chrome-stable_current_amd64.deb
 echo "Google is successfully installed your system"
+echo "Google chrome is opeing soon..."
 google-chrome
