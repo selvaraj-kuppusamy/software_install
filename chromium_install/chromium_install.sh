@@ -14,3 +14,4 @@ echo "Google chromium is successfully installed your system!"
 echo "Google chromium is opening soon!"
 chromium-browser
 
+
