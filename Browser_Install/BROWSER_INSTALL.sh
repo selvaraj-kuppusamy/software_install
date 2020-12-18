@@ -67,6 +67,7 @@ case $choice in
 	    #Exit the process
 	  7) echo "Exit the process"
 	     exit
+	     ;;
 
 esac
 echo "Do you want To continue y for Continue or n for Abort"
