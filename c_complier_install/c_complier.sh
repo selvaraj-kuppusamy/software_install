@@ -12,3 +12,4 @@ sudo apt update -y
 echo "c complier installing!......"
 sudo apt install -y gcc
 echo "c complier is successfully installed!..."
+
