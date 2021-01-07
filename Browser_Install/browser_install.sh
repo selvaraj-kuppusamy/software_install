@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 #upgrade the system
 echo "Your! system is upgrading!..."
