@@ -4,10 +4,10 @@
 #upgrade the system
 echo "hey! Google chrome is installing your system"
 echo "Your system is upgrading!...."
-sudo apt upgrade
+sudo apt update
 #update the system
 echo "Your system is updating!...."
-sudo apt update
+sudo apt upgrade -y
 #download google chrome file in .deb package
 echo "Downloading Google Chrome .deb package file"
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
