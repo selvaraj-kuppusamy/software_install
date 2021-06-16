@@ -7,7 +7,7 @@ echo "Your System is updating!!.."
 sudo apt update
 #upgrade the system
 echo "Your system is upgrading!!..."
-sudo apt upgrade
+sudo apt upgrade -y
 #Add WoeUSB repository
 echo "Add WoeUSB repository!..."
 sudo add-apt-repository ppa:nilarimogard/webupd8 -y
