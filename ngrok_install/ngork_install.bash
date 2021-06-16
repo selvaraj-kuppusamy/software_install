@@ -1,11 +1,11 @@
 #!/bin/bash
 
-#upgrade the system
-echo "Your system is Upgrading!..."
-sudo apt upgrade -y
 #update the system
 echo "Your system is updating!..."
 sudo apt update -y 
+#upgrade the system
+echo "Your system is Upgrading!..."
+sudo apt upgrade -y
 #install ngrok in the ubuntu
 #Download ngrok zip file 
 echo "Downloading Ngrok zip file..."
