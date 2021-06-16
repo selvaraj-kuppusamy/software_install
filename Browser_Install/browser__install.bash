@@ -1,11 +1,11 @@
 #!/bin/bash
 
-#upgrade the system
-echo "Your! system is upgrading!..."
-sudo apt upgrade -y
 #update the system
 echo "Your! system is updating!..."
 sudo apt update -y
+#upgrade the system
+echo "Your! system is upgrading!..."
+sudo apt upgrade -y
 #choice to install or uninstall browser
 
 case $@ in 
