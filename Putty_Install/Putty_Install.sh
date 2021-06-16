@@ -1,11 +1,11 @@
 #!/bin/sh
 
-#upgrade the system
-echo "Your system is Upgrading!..."
-sudo apt upgrade -y
 #update the system
 echo "Your system is updating!..."
 sudo apt update
+#upgrade the system
+echo "Your system is Upgrading!..."
+sudo apt upgrade -y
 #Enable Universe repository
 echo "Universe repository is Enabling!.."
 sudo add-apt-repository universe
