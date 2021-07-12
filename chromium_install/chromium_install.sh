@@ -1,4 +1,10 @@
 #!/bin/sh
+
+#Need to run this script as a root
+if [ "$EUID" -ne 0 ]
+  then echo "Please run as root (with sudo command)"
+  exit
+fi
 #chromium install your system
 echo "Hey! Google Chromium  is installing your system"
 #update the system
